@@ -1,0 +1,7 @@
+{
+  "name": "tagfour",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp -r public dist/public 2>/dev/null || true"
+  }
+}
